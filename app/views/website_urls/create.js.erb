@@ -1,0 +1,5 @@
+$('#set_flash_message').html('<%= j(render :partial => "/shared/flash_messages") %>')
+<% if @website_url.persisted? %>
+  var html_str = "<tr><td><%= @website_url.name %></td></tr>";
+  $('table tbody').prepend(html_str);
+<% end %>

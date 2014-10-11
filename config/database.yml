@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: test_job_dev
+  pool: 5
+  username: rails
+  password: rails
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: test_job_test
+  pool: 5
+  username: rails
+  password: rails
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: test_job_prod
+  pool: 5
+  username: rails
+  password: rails

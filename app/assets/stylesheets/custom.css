@@ -1,0 +1,93 @@
+label {
+  color: dimgrey;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 0 50px;
+  padding-top: 18px;
+  text-align: left;
+}
+
+.text-input {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-left: 10px;
+  width: 67%;
+}
+
+.create_btn{
+  background-color: #3694d6;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 20px;
+  width: 106px;
+}
+
+#set_form {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 3% auto;
+  width: 50%;
+}
+
+table {
+  text-align: center;
+  width: 86%;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-top: 2%;
+  padding: 0 20px;
+}
+
+th,td {
+  padding: 6px;
+  text-align: left;
+}
+
+#content {
+  background: url("/assets/background-pattern.svg") repeat scroll 0 0 #3694d6;
+}
+
+#website_url {
+  padding-bottom: 2%;
+}
+
+.alert {
+  color: white;
+  height: 25px;
+  padding-top: 1%;
+}
+
+.alert-error {
+  background-color: #d00000;
+}
+
+.alert-notice {
+  background-color: #458B00;
+}
+
+
+#spinner {
+  background: url("/assets/spinner.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: none;
+  min-height: 32px;
+  min-width: 32px;
+  margin-left: 20%;
+  margin-top: -3%;
+  position: absolute;
+}

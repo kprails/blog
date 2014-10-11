@@ -1,0 +1,15 @@
+<table>
+  <thead>
+    <th>Url</th>
+  </thead>
+  <tbody>
+    <% @website_urls.each do |website_url| %>
+      <tr>
+        <td>
+          <%= website_url.name %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
